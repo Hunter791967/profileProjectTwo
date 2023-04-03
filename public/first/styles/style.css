@@ -1,0 +1,159 @@
+
+    * {
+        font-family: 'poppins', sans-serif;
+    }
+
+    body {
+        background-image: url('../../images/prog01.jpg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        -webkit-backdrop-filter: blur(4px);
+        backdrop-filter: blur(4px);
+        height: auto;
+    }
+
+    .box {
+        display: grid;
+        place-items: center;
+        height: 600px;
+    }
+
+    .main_container {
+        width: 450px;
+        height: 80%;
+    }
+
+    .log_form, .reg_form {
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* align-items: center; */
+        padding: 0 15px 0 15px;
+    }
+
+    .top span {
+        color: #fff;
+        font-size: small;
+        display: flex;
+        justify-content: center;
+        padding: 10px 0 10px 0;
+    }
+
+    .top header {
+        color: #f1ea41;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        padding: 10px 0 10px 0;
+    }
+
+    .input-field .input {
+        height: 45px;
+        width: 87%;
+        border: none;
+        border-radius: 30px;
+        color: #fff;
+        font-size: 15px;
+        padding: 0 0 0 45px;
+        background: rgba(255, 255, 255, 0.1);
+        outline: none;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
+}
+
+    i {
+        position: relative;
+        top: -33px;
+        left: 17px;
+        color: #fff;
+    }
+
+    ::-webkit-input-placeholder {
+        color: #fff;
+    }
+
+    .submit {
+        border: none;
+        border-radius: 30px;
+        font-size: 15px;
+        height: 45px;
+        outline: none;
+        width: 100%;
+        color: #3e3d53;
+        font-size: 18px;
+        background: rgba(255, 255, 255, 0.7);
+        cursor: pointer;
+        transition: .3s;
+        -webkit-border-radius: ;
+        -moz-border-radius: ;
+        -ms-border-radius: ;
+        -o-border-radius: ;
+        -webkit-transition: .3s;
+        -moz-transition: .3s;
+        -ms-transition: .3s;
+        -o-transition: .3s;
+    }
+
+    .submit:hover {
+        background-color: #3e3d53;
+        color:#fff;
+        box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+    }
+
+    .two-col {
+        height: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        color: #fff;
+        font-size: small;
+        margin-top: 10px;
+    }
+
+    .one {
+        display: flex;
+        align-items: center;
+    }
+
+    label a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .input-fieldOne {
+        display: grid !important;
+        place-items: center !important;
+    }
+
+    .already_reg {
+        text-decoration: none;
+        color: #f1ea41;
+        font-size: 12px;
+    }
+    .err_inputMsg {
+        color: #f1ea41;
+        list-style-type: none;
+        font-size: 15px;
+    }
+/***Forgot Password Form *******************************************************************************************/
+
+    .forgot_form {
+        margin-top: 100px;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* border: 2px solid #f1ea41; */
+        padding: 0 15px 0 15px;
+    }
+    .forgot_text {
+        color: #f1ea41;
+        font-size: 15px;
+        line-height: 1.5em;
+    }

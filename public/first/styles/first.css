@@ -1,0 +1,86 @@
+* {
+    font-family: 'poppins', sans-serif;
+    position: relative;
+}
+
+body {
+    height: auto;
+}
+.main_box {
+    background-image: url('../../images/prog01.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    height: 100vh;
+    width: 100%;
+}
+.log_links {
+    margin: auto;
+    padding-top: 20px;
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+}
+.headers_link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+.headers_left {
+    padding-right: 20px;
+}
+.section_one {
+    margin: 50px auto;
+    width: 60%;
+    height: 50%;
+    display: grid;
+    place-items: center;
+}
+
+.ecf_title {
+    width: 100%;
+    height: 50%;
+    display: grid;
+    place-items: center;
+    font-size: 3.7em;
+    font-weight: 900;
+    letter-spacing: 4px;
+    color: #fff;
+    animation: float 4s cubic-bezier(0.390, 0.575, 0.565, 1.000) infinite alternate;
+    pointer-events: none;
+    backface-visibility: hidden;
+    -webkit-animation: float 4s cubic-bezier(0.390, 0.575, 0.565, 1.000) infinite alternate;
+    -webkit-backface-visibility: hidden;
+  }
+  @keyframes float{
+    0%{
+      transform: translateZ(20px);
+      -webkit-transform: translateZ(20px);
+      -moz-transform: translateZ(20px);
+      -ms-transform: translateZ(20px);
+      -o-transform: translateZ(20px);
+  }
+    100%{
+      transform: translateY(-21px) translateX(-13px) translateZ(30px);
+      -webkit-transform: translateY(-21px) translateX(-13px) translateZ(30px);
+      -moz-transform: translateY(-21px) translateX(-13px) translateZ(30px);
+      -ms-transform: translateY(-21px) translateX(-13px) translateZ(30px);
+      -o-transform: translateY(-21px) translateX(-13px) translateZ(30px);
+  }
+  }
+  .ecf_title small {
+    font-size: .5em;
+  }
+
+  .logout_btn {
+    background-color: transparent !important;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+  }

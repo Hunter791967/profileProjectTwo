@@ -1,0 +1,14 @@
+/*** Header User-Profile Image Style ********************************************************************************/
+.user-panel .image {
+    padding-left: 0;
+}
+
+.user-panel .image img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
