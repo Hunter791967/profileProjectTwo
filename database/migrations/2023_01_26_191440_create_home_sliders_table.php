@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('panner')->default('amr01.png');
             $table->string('title')->default('This Is Amr Elnahas Portfolio');
             $table->string('sub_title')->default('This Is Amr Elnahas Sub-Portfolio');
-            $table->longText('title_desc')->default('This Is Amr Elnahas Portfolio-Description');
+            $table->longText('title_desc')->nullable();
             $table->string('btn_text')->default('This Is Button Text');
             $table->string('scetion_video')->default('This Is Amr Elnahas Video');
             $table->timestamps();

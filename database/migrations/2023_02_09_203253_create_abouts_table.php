@@ -20,7 +20,7 @@ return new class extends Migration
             $table->string('about_desc')->default('This Is Amr Elnahas About Description');
             $table->string('btn_text')->default('This Is About Button_Text');
             $table->string('image')->nullable();
-            $table->longText('about_tab')->default('This Is Amr Elnahas About Tab');
+            $table->longText('about_tab')->nullable;
             $table->timestamps();
         });
     }
